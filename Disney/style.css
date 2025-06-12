@@ -1,0 +1,390 @@
+:root {
+    --bg-color: #f0f0f0;
+    --text-color: #222;
+    --card-bg: #fff;
+}
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #eee;
+    --card-bg: #1e1e1e;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+header {
+    padding: 1rem 2rem;
+    background-color: var(--card-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.toggle-theme {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background: var(--bg-color);
+    border: none;
+    color: var(--text-color);
+    border-radius: 4px;
+}
+.menu {
+    align-items: center;
+    cursor: pointer;
+}
+.menu-itens {
+    display: flex;
+}
+.menu-itens li {
+    padding: 25px;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-itens li a {
+    text-decoration: none;
+}
+
+.topo{
+    text-align: center;
+}
+.topo img {
+    width: 65%;
+    height: 80vh;
+    border-radius: 10px;
+}
+.topo p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.topo h1 {
+    padding: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+.secao-frozen h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-frozen p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-frozen ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-bela h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-bela p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-bela ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-toy h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-toy p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-toy ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-moana h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-moana p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-moana ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-nemo h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-nemo p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-nemo ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-rei h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-rei p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-rei ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-mente h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-mente p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-mente ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-viva h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-viva p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-viva ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-enrolados h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-enrolados p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-enrolados ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-zootopia h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-zootopia p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.secao-zootopia ul {
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+    list-style-type: none;
+}
+.secao-magic h1 {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+.secao-magic img {
+    width: 65%;
+    height: 80vh;
+    border-radius: 10px;
+}
+.secao-magic p {
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.local p{
+    padding: 25px;
+    font-family: serif;
+    font-size: 1.2em;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.local iframe{
+    padding: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+    width: 50%;
+    height: 60vh;
+}
+.local h6 {
+    margin-left: 550px;
+    margin-right: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    text-align: center;
+}
+.container iframe{
+    width: 65%;
+    height: 80vh;
+}
+table, th, td  {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 770px;
+    margin-right: 700px;
+}
+.secao-tabela {
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.faixa{
+    background-color: black;
+    color: #ffff;
+    padding: 1px 1px;
+    text-align: center;
+}
+.faixa p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.redes-sociais img{
+    width: 50px;
+    height: 50px;
+    margin: 0 20px ;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+audio {
+    display: none;
+}
